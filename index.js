@@ -17,6 +17,7 @@ var stream = require('stream'),
 // for creating events to process.
 //
 var Producer = module.exports = function Producer(options) {
+  if (!(this instanceof Producer)) { return new Producer(options) }
   options = options || {};
   stream.Stream.call(this);
 
