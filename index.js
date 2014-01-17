@@ -150,3 +150,7 @@ Producer.prototype.produce = function () {
     ttl:         this.values.ttl
   });
 };
+
+Producer.prototype.destroy = function () {
+  clearInterval(this.ttlId);
+};
