@@ -1,5 +1,6 @@
 # producer
 
+[![build status](https://secure.travis-ci.org/jcrugzz/producer.png)](http://travis-ci.org/jcrugzz/producer)
 Readable stream that emits [`godot`][godot] object events at a particular TTL.
 
 ## Example
