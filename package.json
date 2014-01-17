@@ -1,0 +1,21 @@
+{
+  "name": "producer",
+  "description": "A readable stream that emits particular JSON objects at the defined ttl. Abstracted out of `godot`",
+  "version": "0.0.0",
+  "author": "Jarrett Cruger <jcrugzz@gmail.com>",
+  "repository": {
+    "url": "git://github.com/jcrugzz/producer.git"
+  },
+  "main": "index.js",
+  "scripts": {
+    "test": "tape test/*.js"
+  },
+  "engines": {
+    "node": "0.10.x"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "tape": "~2.3.2"
+  },
+  "license": "MIT"
+}
