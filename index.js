@@ -155,3 +155,8 @@ Producer.prototype.produce = function () {
 Producer.prototype.destroy = function () {
   clearInterval(this.ttlId);
 };
+
+//
+// Backwards compat the API in case this was used
+//
+module.exports.Producer = Producer;
